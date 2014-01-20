@@ -25,12 +25,16 @@ Async-images will now check your device width. If it's higher than 1000px but sm
 $.imageLoader();
 ```
 This will search for all images with the data-loader atttribute:
-```<img src="./img/img1_lo.jpg" data-loader="true" data-lowRes="1000" data-1500="./img/img1_me.jpg" data-2000="./img/img1_hi.jpg" height="some_height" width="some_width">```
+```
+<img src="./img/img1_lo.jpg" data-loader="true" data-lowRes="1000"
+	data-1500="./img/img1_me.jpg" data-2000="./img/img1_hi.jpg"
+	height="some_height" width="some_width">
+```
 This will replace `img1_lo.jpg` with `img1_me.jpg` if your display is wider than 1500px and `img1_hi.jpg` if it's wider than 2000px.
 
 ## Important ##
 Always set the height and width of the images. Otherwise they will get bigger when the bigger images are loaded.
 
 ## ToDo ##
-- [ ] Moar automation! prefixes, suffixes and stuff...
-- [ ] add option to use device-pixel-ratio instead of width
+- Moar automation! prefixes, suffixes and stuff...
+- Add option to use device-pixel-ratio instead of width
