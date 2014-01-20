@@ -1,6 +1,6 @@
 {
 	"name": "async-images",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"title": "Async-Images",
 	"description": "This plugin replaces low-resolution images on the page by images with higher resolutions based on the device's display.",
 	"keywords": ["image", "high-resolution", "traffic", "asynchronous", "responsive"],
@@ -12,7 +12,7 @@
 	"licenses": [
 		{
 			"type": "MIT",
-			"url": "https://raw.github.com/reneraab/HDImageLoader/master/LICENSE"
+			"url": "https://raw.github.com/reneraab/async-images/master/LICENSE"
 		}
 	],
 	"bugs": "https://github.com/reneraab/async-images/issues",
