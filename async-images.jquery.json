@@ -1,8 +1,8 @@
 {
 	"name": "async-images",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"title": "Async-Images",
-	"description": "This plugin replaces low-resolution images on the page by images with higher resolutions based on the device's display.",
+	"description": "This plugin asynchronously replaces low-resolution images on the page by images with higher resolutions (e.g. based on the device's display).",
 	"keywords": ["image", "high-resolution", "traffic", "asynchronous", "responsive"],
 	"author": {
 		"name": "René Raab",

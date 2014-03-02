@@ -3,7 +3,32 @@
 This plugin allows you to asynchronously replace small, low-resolution images on your page with higher-resolution ones.
 You can define multiple high-def images by associating them with a minimum device width. The image which has a bigger width than the device is used.
 
-## How to use ##
+## How to use: Simple ##
+
+### Method 1: function call ###
+
+```javascript
+$.asyncImages({
+	"#img1": "./img/img1_hi.jpg"
+});
+```
+```html
+<img src="./img/img1_lo.jpg" id="img1" height="some_height" width="some_width">
+```
+Async-images will now load `img1_hi.jpg` and replace the low-res image in `#img1`.
+
+### Method 2: data-atributes ###
+```javascript
+$.imageLoader();
+```
+This will search for all images with the data-loader atttribute:
+```html
+<img src="./img/img1_lo.jpg" data-loader="true" data-hiRes="./img/img1_hi.jpg"
+	height="some_height" width="some_width">
+```
+This will replace `img1_lo.jpg` with `img1_hi.jpg`.
+
+## How to use: based on screen size ##
 
 ### Method 1: function call ###
 
